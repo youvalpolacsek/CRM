@@ -1,0 +1,24 @@
+#header{
+grid-area: "h";
+text-align: center;
+margin-left: 640px;
+padding-top: 10px;
+color: bisque;
+font-size: 2em
+}
+
+.links{
+    grid-area: "l";
+    color: bisque;
+    font-size: 1em;
+}
+
+#links{
+    margin-left: -780px
+}
+
+#navbar{
+    background-color: #3c6382;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}

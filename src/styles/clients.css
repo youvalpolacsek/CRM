@@ -1,0 +1,19 @@
+.tr{
+    background-color: beige;
+    border: black 
+}
+#tableHeader{
+    background-color:#079992
+}
+
+#table{
+    width: 100%
+}
+
+#clientHeader{
+text-align: center;
+}
+
+#clientUpdate{
+    background-color: aquamarine
+}

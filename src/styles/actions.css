@@ -1,0 +1,33 @@
+#actionContainer{
+   padding-bottom: 300px
+}
+
+#searchContainer{
+margin-left: 275px;
+margin-bottom: 10px;
+}
+
+#biggerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#updateContainer{
+    width: 400px;
+    height: 200px;
+    padding-bottom: 50px;
+    border: solid;
+    margin-left: 200px; 
+}
+
+#addContainer{
+    width: 400px;
+    height: 200px;
+    padding-bottom: 50px;
+    border: solid;
+    margin-left: 100px; 
+}
+
+#actionHeader{
+    grid-area: "h";
+}
