@@ -43,6 +43,7 @@ constructor(){
                <h2 id="clientHeader" style={{fontfamily: 'Roboto'}}>Clients</h2>
                 <hr></hr>
                 <input type="text" placeholder="Client Name" value={this.state.clientName} onChange={this.handleChange}></input>
+                <span>search for client</span>
                 <table id="table">
                 <Header />
                 {this.state.Clients.filter(c=> c.name.toLowerCase().includes(this.state.clientName.toLowerCase())).map(c=> <Client key={c._id} Client={c} smallUpdateClient={this.smallUpdateClient}/>)}

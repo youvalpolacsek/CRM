@@ -8,15 +8,11 @@ import Actions from './components/Action/Actions';
 import Analytics from './components/Analytics/Analytics';
 
 
-
-
-
-
 class App extends Component {
   constructor() {
     super()
     this.state = {
-
+      
     }
   }
 
