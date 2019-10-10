@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const app = express()
-const data = require ('../react-crm-ex-youvalpolacsek/data')
+// const data = require ('../react-crm-ex-youvalpolacsek/data')
 let Client = require ('./ClientModel')
 
 mongoose.connect("mongodb://127.0.0.1/CRMDB", { useNewUrlParser: true })
